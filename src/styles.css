@@ -1,0 +1,27 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.meme-container {
+  width: 100%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1rem;
+}
+
+.meme-container img {
+  width: 100%;
+  height: auto;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+form {
+  margin-bottom: 2rem;
+}
+
+.meme {
+  margin-bottom: 2rem;
+}
